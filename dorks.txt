@@ -1,0 +1,54 @@
+# General SQL Injection Dorks
+inurl:"php?id=" 
+inurl:"index.php?id="
+inurl:"view.php?id="
+inurl:"item.php?id="
+inurl:"product.php?id="
+inurl:"news.php?id="
+inurl:"category.php?id="
+inurl:"page.php?page_id="
+
+# Specific Parameter Targeting
+inurl:"search.php?query="
+inurl:"search.php?q="
+inurl:"search.php?s="
+inurl:"page.php?path="
+inurl:"article.php?post="
+inurl:"content.php?cid="
+inurl:"detail.php?post_id="
+
+# Admin Panel Dorks (Common for SQL Injection)
+inurl:"admin.php?id="
+inurl:"login.php?ref="
+inurl:"admin/index.php?id="
+inurl:"admin/login.php"
+
+# E-commerce and Product Pages
+inurl:"product.php?prodID="
+inurl:"shop.php?catid="
+inurl:"browse.php?category="
+inurl:"item.php?itemid="
+
+# Content Management Systems (CMS)
+inurl:"/wp-content/plugins/"
+inurl:"com_content/article.php?id="
+inurl:"com_user/user.php?id="
+inurl:"com_virtuemart/product.php?id="
+
+# Forms potentially vulnerable to SQL injection
+inurl:"/contact.php?send="
+inurl:"/feedback.php?message="
+inurl:"/subscribe.php?email="
+inurl:"/register.php?user="
+
+# File Inclusion Dorks (potentially leading to SQL Injection)
+inurl:"file.php?file="
+inurl:"load.php?file="
+inurl:"include.php?path="
+inurl:"page.php?include="
+
+# Advanced SQL Injection Dorks
+inurl:"detail.php?id="
+inurl:"store.php?product_id="
+inurl:"news_view.php?id="
+inurl:"info.php?id="
